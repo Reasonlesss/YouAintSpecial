@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "you-aint-special",
+  "version": "${version}",
+  "name": "YouAintSpecial",
+  "description": "Goodbye Migrator Cape o/",
+  "authors": [
+    "Reasonless"
+  ],
+  "contact": {
+    "repo": "https://github.com/Reasonlesss/YouAintSpecial"
+  },
+  "license": "MIT",
+  "icon": "assets/YouAintSpecial/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "me.reasonless.youaintspecial.YouAintSpecial"
+    ]
+  },
+  "mixins": [
+    "YouAintSpecial.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "minecraft": ">=1.16.5"
+  }
+}
